@@ -98,7 +98,137 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="purpose bg-slate-600">
+          <p>What we do</p>
+          <div className="support">
+            <div className="support-text">
+              <p>FOR OUR PARTNERS</p>
+              <h1>We support our pharmacy partners </h1>
+              <span>
+                We support our pharmacy partners (community, wholesalers,
+                hospitals and industries) in offloading short-dated drug
+                products by offering them to a wide audience at discounted
+                prices to help prevent outright losses due to inevitable expiry.
+              </span>
+            </div>
+            <Image
+              src="/image 6.png"
+              alt="bvida purpose"
+              className="logo"
+              width={500}
+              height={463.7}
+              priority
+            />
+          </div>
+          <div className="access">
+            <Image
+              src="/image 7.png"
+              alt="bvida purpose"
+              className="logo"
+              width={500}
+              height={463.7}
+              priority
+            />
+            <div className="access-text">
+              <p>FOR OUR PATIENTS</p>
+              <h1>Access to cheap medications</h1>
+              <span>
+                We provide our patients with the opportunity to purchase quality
+                medications at giveaway prices! Yes, only giveaway prices
+                guaranteed!
+              </span>
+            </div>
+          </div>
+        </div>
       </section>
+      <footer>
+        <div className="join">
+          <p>Join us today!</p>
+          <div className="form">
+            <input type="text" placeholder="Enter your email" />
+            <div className="btn2">Join us</div>
+          </div>
+        </div>
+        <div className="foot">
+          <div className="buy">
+            <p>Buy</p>
+            <ul>
+              <li>Registration</li>
+              <li>Special Requests</li>
+              <li>Returns</li>
+            </ul>
+          </div>
+          <div className="sell">
+            <p>Sell</p>
+            <ul>
+              <li>Become a partner</li>
+            </ul>
+          </div>
+          <div className="stay">
+            <p>Stay Informed</p>
+            <ul>
+              <li>Bvida Blogs</li>
+              <li>Bvida Community</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+          <div className="contact">
+            <p>Contact Us</p>
+            <ul>
+              <li>Email Us</li>
+              <li>Call Us</li>
+              <li>Text Us</li>
+            </ul>
+          </div>
+        </div>
+        <div className="links">
+          <a href="">
+            <Image
+              src="/Vector.png"
+              alt="Vercel Logo"
+              width={23.1}
+              height={22.97}
+              priority
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/Vector (1).png"
+              alt="Vercel Logo"
+              width={23.1}
+              height={22.97}
+              priority
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/Vector (2).png"
+              alt="Vercel Logo"
+              width={23.1}
+              height={22.97}
+              priority
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/Vector (3).png"
+              alt="Vercel Logo"
+              width={23.1}
+              height={22.97}
+              priority
+            />
+          </a>
+        </div>
+        <Image
+          src="/Asset 11 1.png"
+          alt="Bvida Logo"
+          className="bvida"
+          width={120}
+          height={27.12}
+          priority
+        />
+      </footer>
       {/* <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
