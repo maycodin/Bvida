@@ -24,12 +24,18 @@ export default function Home() {
           priority
         />
         <div className="nav-btn">
-          <p>Solutions</p>
-          <p>Partners</p>
-          <p>Investors</p>
+          <a href="/solutions">
+            <p>Solutions</p>
+          </a>
+          <a href="/partners">
+            <p>Partners</p>
+          </a>
+          <a href="/investors">
+            <p>Investors</p>
+          </a>
         </div>
 
-        <div className="btn">Contact Sales</div>
+        <button className="btn">Contact Sales</button>
       </nav>
       <main className="main">
         <p>
